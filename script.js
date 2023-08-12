@@ -1,7 +1,7 @@
 var recentSearches = JSON.parse(localStorage.getItem("searches")) || [];
 console.log(recentSearches);
 //var apiKey="949e4d910374477340798e31903cc1ea";
-var searchHistory = document.getElementById("recent-viewed");
+var searchHistory = document.getElementById("recently-viewed");
 
 getWeather("Riverside")
 
@@ -119,8 +119,10 @@ function addRecentSearch(city) {
     recentButton.textContent = city;
     recentButton.addEventListener("click", function () {
         executeSearch(city);
+        console.log(recentButton);
     });
     searchHistory.appendChild(recentButton);
+    
 }
 
 function executeSearch(searchCity) {
