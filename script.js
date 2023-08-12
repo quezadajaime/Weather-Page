@@ -1,6 +1,5 @@
 var recentSearches = JSON.parse(localStorage.getItem("searches")) || [];
-console.log(recentSearches);
-//var apiKey="949e4d910374477340798e31903cc1ea";
+//console.log(recentSearches);
 var searchHistory = document.getElementById("recently-viewed");
 
 getWeather("Riverside")

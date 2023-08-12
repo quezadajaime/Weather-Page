@@ -1,0 +1,39 @@
+/* gradient found https://cssgradient.io/*/
+header {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 13%, rgba(0,212,255,1) 65%);
+}
+
+
+.searchBtn {
+transition-duration: 0.6s;
+}
+
+.searchBtn:hover {
+    background-color: black;
+    color: white
+}
+
+button {
+    transition-duration: 0.8s;
+}
+
+button:hover {
+    background-color: black;
+    color: white
+}
+
+#day-1, #day-2, #day-3, #day-4, #day-5 {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.searchBox {
+    background: rgb(1,14,14);
+background: linear-gradient(0deg, rgb(170, 173, 173) 0%, rgb(77, 76, 75) 100%);
+}
+
+.currentCity {
+    background: rgb(231,240,240);
+background: linear-gradient(0deg, rgba(231,240,240,1) 27%, rgba(25,249,231,1) 100%);
+}
