@@ -107,7 +107,7 @@ function setForecastDay(weather, dayNumber) {
 
 var searchForm = document.getElementById("search-form");
 var city = document.getElementById("city");
-searchForm.addEventListener("search", function (event) {
+searchForm.addEventListener("submit", function (event) {
     event.preventDefault();
     var searchCity = city.value.trim();
     executeSearch(searchCity);
@@ -117,7 +117,7 @@ searchForm.addEventListener("search", function (event) {
 function addRecentSearch(city) {
     var recentButton = document.createElement("button");
     recentButton.textContent = city;
-    recentButton.addEventListener("click", function() {
+    recentButton.addEventListener("click", function () {
         executeSearch(city);
     });
     searchHistory.appendChild(recentButton);
