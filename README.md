@@ -30,6 +30,8 @@ https://quezadajaime.github.io/Weather-Page
 
 Github
 
+https://github.com/quezadajaime/Weather-Page.git
+
 ## Usage
 
 To allow a user to see the forecasted weather for the next 5 days of their inputed city 
