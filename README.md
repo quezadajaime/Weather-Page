@@ -4,6 +4,8 @@
 ## Description
 
 This website allows the user to see the weather of cities all around the world. 
+![Weather Page](https://github.com/quezadajaime/Weather-Page/assets/136545874/b15de278-0519-4ad5-ae43-843522fbad15)
+
 
 ## User Story
 1. AS A traveler
